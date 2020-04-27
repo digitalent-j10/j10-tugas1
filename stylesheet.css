@@ -16,6 +16,47 @@ a {
   clear: left;
 }
 
+.lesson-wrapper {
+padding-bottom: 80px;
+background-color:#f7f7f7;
+text-align: center;
+}
+
+.heading {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: chocolate;
+}
+
+.heading h2 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.lesson {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.lesson-icon {
+    position: relative;
+    text-align: center;
+    color:bold;
+    font-size: 20px;
+}
+
+.lesson-icon p {
+    text-align: center;
+
+}
+
+.txt-contents {
+    color: #b69fbe;
+    
+}
+
+
 footer img {
   width: 125px;
 }
