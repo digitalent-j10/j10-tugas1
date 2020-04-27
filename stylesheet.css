@@ -54,6 +54,7 @@ footer .container{
 .footer-part ul li a:hover{
   color:#dedede;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .copyright{
@@ -204,15 +205,3 @@ to {background-color: auto;}
     height: 200px;
 }
 
-@media (max-width : 1000px) {
-    .extra-icon {
-        width: 50%;
-        margin-bottom: 30px;
-    }
-}
-
-@media (max-width : 670px) {
-    .extra-icon {
-        width: 100%;
-    }
-}
