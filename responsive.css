@@ -11,6 +11,11 @@
         width: 50%;
         margin-bottom: 30px;
     }
+	
+	.lesson {
+        width: 50%;
+        margin-bottom: 50px;
+    }
 
 }
 
@@ -23,6 +28,10 @@
     width: 100%;
   }
 	.extra-icon {
+        width: 100%;
+    }
+  
+  .lesson {
         width: 100%;
     }
 }
