@@ -1,3 +1,11 @@
+@media (max-width: 2000px) {
+	footer .container{
+		width: 90%;
+	}
+	header .container{
+  		width: 90%;
+	}
+}
 /* Untuk Tablets */
 @media (max-width: 1000px) {
 	footer .container{
