@@ -32,7 +32,10 @@ text-align: center;
     font-weight: normal;
     text-align: center;
 }
-
+.lesson-wrapper{
+  padding-left: 5%;
+  padding-right: 5%;
+}
 .lesson {
     float: left;
     width: 33%;
@@ -234,10 +237,6 @@ to {background-color: auto;}
     margin: 10px 0;
     text-shadow: 1px 1px 2px black;
     font-size: 20px;
-}
-
-.clear {
-    clear: left;
 }
 
 .extra-icon img{
