@@ -16,6 +16,12 @@
         width: 100%;
         margin-bottom: 50px;
     }
+  .header-right{
+    display:  none;
+  }
+  .menu-icon{
+    display:  block;
+  }
 
 }
 
@@ -34,4 +40,10 @@
   .lesson {
         width: 100%;
     }
+  .header-right{
+    display:  none;
+  }
+  .menu-icon{
+    display:  block;
+  }
 }
