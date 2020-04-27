@@ -25,7 +25,7 @@ text-align: center;
 .heading {
     padding-top: 40px;
     padding-bottom: 30px;
-    color: chocolate;
+    color: #FFF;
 }
 
 .heading h2 {
@@ -73,11 +73,11 @@ footer {
   width: 100%;
   padding-top: 30px;
   padding-bottom: 20px;
-  background-color: #2b546a;
+  background-color: rgba(34, 50, 100, 0.9);
   color: #fff;
 }
 footer .container{
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 .footer-part{
@@ -87,6 +87,18 @@ footer .container{
 }
 .footer-part img{
   padding-top:20px;
+}
+.footer-part a img{
+  padding: 0;
+}
+.footer-part a img:hover{
+  cursor: pointer;
+}
+.source{
+  padding-top: 30px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: #FFF;
 }
 .footer-part ul{
   list-style: none;
@@ -244,4 +256,43 @@ to {background-color: auto;}
     box-shadow: 0 3px 20px rgba(0,0,0, 0.5);;
     height: 200px;
 }
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 50, 100, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+header .container{
+  max-width: 1170px;
+}
 
+.header-left {
+  float: left;
+  color: white;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+.header-left a img{
+  height: 35px;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
